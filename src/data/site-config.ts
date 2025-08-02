@@ -39,9 +39,8 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
+    title: 'Fauzan Khan',
     website: 'https://example.com',
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
     description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
     image: {
         src: '/dante-preview.jpg',
@@ -50,38 +49,22 @@ const siteConfig: SiteConfig = {
     headerNavLinks: [
         {
             text: 'Home',
-            href: '/'
-        },
-        {
-            text: 'Projects',
-            href: '/projects'
+            href: 'https://fauzan.in'
         },
         {
             text: 'Blog',
-            href: '/blog'
-        },
-        {
-            text: 'Tags',
-            href: '/tags'
+            href: '/'
         }
     ],
     footerNavLinks: [
         {
             text: 'About',
-            href: '/about'
+            href: 'https://fauzan.in'
         },
         {
             text: 'Contact',
-            href: '/contact'
+            href: 'https://fauzan.in'
         },
-        {
-            text: 'Terms',
-            href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
-        }
     ],
     socialLinks: [
         {
