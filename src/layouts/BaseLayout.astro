@@ -17,6 +17,8 @@ const { showHeader = true, ...head } = Astro.props;
         <script>
             if (localStorage.theme === 'light') {
                 document.documentElement.classList.add('light');
+            } else {
+                document.documentElement.classList.add('dark');
             }
         </script>
         <ClientRouter />
