@@ -11,6 +11,7 @@ seo:
     src: '/post-6.jpg'
     alt: Man waiting for train
 ---
+![banner](/post-10.jpg)
 
 Since 2020, I've led exclusively remote engineering teams—from cross-functional product squads to specialized frontend teams. The transition forced me to fundamentally rethink how engineering teams collaborate, particularly when balancing the need for deep focus work with effective team coordination.
 
